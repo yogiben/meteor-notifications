@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Adds notification functionality",
-  version: "0.0.1",
-  git: " \* Fill me in! *\ "
+  version: "0.0.2",
+  git: "http://github.com/yogiben/meteor-notifications.git"
 });
 
 both = ['client', 'server'];
@@ -15,8 +15,8 @@ Package.onUse(function(api) {
         'templating',
         'less',
         'tracker',
-        'iron:router',
-        'mrt:moment',
+        'iron:router@0.9.3',
+        'mrt:moment@2.8.1',
         'aldeed:collection2@0.4.6'
       ],
       both);
@@ -46,10 +46,4 @@ Package.onUse(function(api) {
         'lib/server/methods.coffee'
       ],
       'server');
-});
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('notifications');
-  api.addFiles('notifications-tests.js');
 });
