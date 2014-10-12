@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Adds notification functionality",
-  version: "0.0.2",
+  version: "0.0.3",
   git: "http://github.com/yogiben/meteor-notifications.git"
 });
 
@@ -17,7 +17,7 @@ Package.onUse(function(api) {
         'tracker',
         'iron:router@0.9.3',
         'mrt:moment@2.8.1',
-        'aldeed:collection2@0.4.6'
+        'aldeed:autoform@3.2.0'
       ],
       both);
 
