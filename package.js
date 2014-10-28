@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Adds notification functionality",
-  version: "0.0.3",
+  version: "0.0.4",
   git: "http://github.com/yogiben/meteor-notifications.git"
 });
 
