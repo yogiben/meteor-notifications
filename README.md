@@ -70,7 +70,7 @@ This is simple bootstrap panel with listing of all user notifications.
 #### Creating new notification ####
 
 ```
-Notifications.create
+Notifications.new
   title: 'New message'
   link: '/messages/1'
   icon: 'bolt'
