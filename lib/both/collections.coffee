@@ -19,6 +19,7 @@ Schemas.Notifications = new SimpleSchema
 
   link:
     type:String
+    optional: true
 
   title:
     type:String
@@ -35,7 +36,7 @@ Schemas.Notifications = new SimpleSchema
 
   icon:
     type:String
-    defaultValue: 'bolt'
+    defaultValue: 'circle-o'
 
   class:
     type:String

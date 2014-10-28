@@ -12,11 +12,11 @@
     <ul class="dropdown-menu" role="menu">
       {{#if hasNotifications}}
         {{#each Notifications limit=5 unreadFirst=true}}
-          <li class="well-sm notification {{notificationClass}}">
-            <a class="bg-{{class}}" href="{{link}}"><i class="fa fa-{{icon}}"></i> {{title}}</a>
+          <li class="notification {{notificationClass}}">
+            <a href="{{link}}"><i class="fa fa-{{icon}} fa-fw text-{{class}}"></i> {{title}}</a>
           </li>
         {{/each}}
-        <li class="well-sm"><a href="/notifications">See all</a></li>
+        <li class="text-center"><a href="/notifications">See all</a></li>
       {{else}}
         <li><div class="well-sm">0 Notifications</div></li>
       {{/if}}
@@ -33,9 +33,9 @@
       <ul class="list-group">
         {{#each Notifications}}
           <li class="list-group-item notification {{notificationClass}}">
-            <i class="fa fa-{{icon}}"></i> 
+            <i class="fa fa-{{icon}} text-{{class}}"></i> 
             <a href="{{link}}">{{title}}</a> 
-            <span class="label label-default pull-right">{{ago}}</span>
+            <span class="pull-right">{{ago}}</span>
           </li>
         {{/each}}
       </ul>
