@@ -1,13 +1,13 @@
 Package.describe({
   summary: "Adds notification functionality",
-  version: "0.0.4",
+  version: "0.0.6",
   git: "http://github.com/yogiben/meteor-notifications.git"
 });
 
 both = ['client', 'server'];
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@0.9.2.2');
+  api.versionsFrom('METEOR@1.0');
   
   api.use(
       [
@@ -15,9 +15,9 @@ Package.onUse(function(api) {
         'templating',
         'less',
         'tracker',
-        'iron:router@0.9.3',
+        'iron:router@1.0.0',
         'mrt:moment@2.8.1',
-        'aldeed:autoform@3.2.0'
+        'aldeed:autoform@4.0.2'
       ],
       both);
 
