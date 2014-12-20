@@ -18,7 +18,7 @@ Easy notification functionality in meteor.
 3) Create new notification
 
 ```
-Notifications.new { title: 'New message', link: '/messages/1' }
+Notifications.new({ title: 'New message', link: '/messages/1' });
 ```
 
 ### Helpers ###
