@@ -17,7 +17,7 @@ Package.onUse(function(api) {
         'tracker',
         'iron:router@1.0.0',
         'mrt:moment@2.8.1',
-        'aldeed:autoform@4.0.2'
+        'aldeed:autoform@5.1.0'
       ],
       both);
 
