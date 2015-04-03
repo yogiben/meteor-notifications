@@ -15,9 +15,9 @@ Package.onUse(function(api) {
         'templating',
         'less',
         'tracker',
-        'iron:router@1.0.0',
+        'iron:router@1.0.7',
         'mrt:moment@2.8.1',
-        'aldeed:autoform@4.0.2'
+        'aldeed:autoform@4.2.2 || 5.1.2'
       ],
       both);
 
