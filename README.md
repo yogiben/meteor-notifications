@@ -7,6 +7,10 @@ Easy notification functionality in meteor.
 
 [See a demo](http://yogiben-favorites.meteor.com/dashboard)
 
+### Screenshots ###
+
+![img](readme/screenshot.png)
+
 ### Usage ###
 
 1. Install the package
@@ -76,11 +80,11 @@ Notifications.new
   class: 'default'
 ```
 
-This method inserts new notification into ``Notifications`` collection. 
+This method inserts new notification into ``Notifications`` collection.
 
-``title`` and ``link`` are used to create link to notification. 
+``title`` and ``link`` are used to create link to notification.
 
-``icon`` is font-awesome icon class name displayed with in notification link. 
+``icon`` is font-awesome icon class name displayed with in notification link.
 
 ``class`` is bootstrap 3 ``bg-`` class and can be one of ``primary success info danger`` (note: you don't need to specify prefix).
 
