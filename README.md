@@ -120,7 +120,7 @@ You can created your own buttons and replace the default templates. To do this, 
     </button>
     <ul class="dropdown-menu" role="menu">
       {{#each Notifications limit=5 readFirst=true}}
-        <li><a href="{{link}}" class="bg-{{class}}"><i class="fa fa-{{icon}}">{{title}}</a></li>
+        <li><a href="{{link}}" class="bg-{{class}}"><i class="fa fa-{{icon}}"></i>{{title}}</a></li>
       {{/each}}
     </ul>
   </div>
