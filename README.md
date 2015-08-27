@@ -142,5 +142,5 @@ You can created your own buttons and replace the default templates. To do this, 
 ```js
 Template.myNotificationsDropdown.replaces("notificationsDropdown")
 
-Template.myNotfications.replaces("notifications")
+Template.myNotifications.replaces("notifications")
 ```
