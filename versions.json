@@ -2,11 +2,11 @@
   "dependencies": [
     [
       "aldeed:autoform",
-      "4.0.2"
+      "5.8.1"
     ],
     [
       "aldeed:simple-schema",
-      "1.1.0"
+      "1.5.3"
     ],
     [
       "application-configuration",
@@ -22,7 +22,7 @@
     ],
     [
       "blaze",
-      "2.0.3"
+      "2.1.3"
     ],
     [
       "blaze-tools",
@@ -118,7 +118,7 @@
     ],
     [
       "less",
-      "1.0.11"
+      "2.5.1"
     ],
     [
       "livedata",
@@ -130,7 +130,7 @@
     ],
     [
       "meteor",
-      "1.1.3"
+      "1.2.1"
     ],
     [
       "minifiers",
@@ -146,7 +146,7 @@
     ],
     [
       "mrt:moment",
-      "2.8.1"
+      "2.10.6"
     ],
     [
       "observe-sequence",
@@ -210,6 +210,6 @@
     ]
   ],
   "pluginDependencies": [],
-  "toolVersion": "meteor-tool@1.0.35",
+  "toolVersion": "meteor-tool@1.2.1",
   "format": "1.0"
 }

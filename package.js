@@ -1,13 +1,13 @@
 Package.describe({
-  summary: "Adds notification functionality",
-  version: "0.1.0",
-  git: "http://github.com/yogiben/meteor-notifications.git"
+  summary: "My updated version if yogiben's notification. Updated for Meteor 1.2.",
+  version: "0.2.0",
+  git: "http://github.com/patrickbolle/meteor-notifications.git"
 });
 
 both = ['client', 'server'];
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.0');
+  api.versionsFrom('METEOR@1.2.1');
 
   api.use(
       [
@@ -16,7 +16,7 @@ Package.onUse(function(api) {
         'less',
         'tracker',
         'mrt:moment@2.8.1',
-        'aldeed:autoform@4.2.2 || 5.1.2'
+        'aldeed:autoform@5.8.1'
       ],
       both);
 
