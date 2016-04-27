@@ -1,6 +1,6 @@
 Package.describe({
   summary: "My updated version if yogiben's notification. Updated for Meteor 1.2.",
-  version: "0.2.0",
+  version: "0.1.0",
   git: "http://github.com/patrickbolle/meteor-notifications.git"
 });
 
